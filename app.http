@@ -1,0 +1,7 @@
+POST http://localhost:5000/chat
+Content-Type: application/json
+
+{
+    "user_input":"Do you have a name",
+    "chat_history": ["Hi there! How can I assist you today?"]
+}
