@@ -1,15 +1,3 @@
-# from llama_index import download_loader
-
-# SimpleWebPageReader = download_loader("SimpleWebPageReader")
-
-# def web_page_reader(urls):
-#     loader = SimpleWebPageReader()
-#     documents = loader.load_data(urls=urls)
-#     return documents
-
-# url = "https://llamahub.ai/l/web-simple_web?from=loaders"
-
-
 from bs4 import BeautifulSoup as soup
 import requests
 from llama_index import Document
